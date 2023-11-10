@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@0x5e/homebridge-tuya-platform": "1.7.0-beta.52",
+    "homebridge": "1.6.1",
+    "homebridge-google-nest-sdm": "1.1.20",
+    "homebridge-gsh": "2.2.0",
+    "homebridge-smartthings-ik": "1.5.20",
+    "homebridge-tp-link-tapo": "4.0.0"
+  }
+}

@@ -1,0 +1,85 @@
+{
+    "bridge": {
+        "name": "Homebridge 58E1",
+        "username": "0E:79:A6:72:8C:39",
+        "port": 51576,
+        "pin": "933-32-878",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "addresses": [
+                "192.168.50.161"
+            ],
+            "name": "Jamie Newham",
+            "email": "jamienewham@gmail.com",
+            "password": "Forest3391!",
+            "platform": "HomebridgeTPLinkTapo",
+            "_bridge": {
+                "username": "0E:93:CC:88:1D:63",
+                "port": 34629
+            }
+        },
+        {
+            "name": "Tuya",
+            "options": {
+                "projectType": "2",
+                "accessId": "dpkahkd9jay4vda59xtr",
+                "accessKey": "648b230dfc6146af8c2bbefb1f9e10f1",
+                "countryCode": 253,
+                "username": "jamienewham@gmail.com",
+                "password": "Forest3391",
+                "appSchema": "smartlife",
+                "debug": false
+            },
+            "_bridge": {
+                "username": "0E:F6:63:81:AF:38",
+                "port": 53480
+            },
+            "platform": "TuyaPlatform"
+        },
+        {
+            "name": "Smartthings Plug (IK)",
+            "BaseURL": "https://api.smartthings.com/v1/",
+            "AccessToken": "333df249-d19c-4f07-87b4-740732ec32ab",
+            "GarageDoorMaxPoll": 40,
+            "PollLocksSeconds": 10,
+            "PollDoorsSeconds": 10,
+            "PollSensorsSeconds": 5,
+            "PollSwitchesAndLightsSeconds": 10,
+            "PollWindowShadesSeconds": 20,
+            "ExposeHumiditySensorForAirConditioners": false,
+            "OptionalModeForAirConditioners": "None",
+            "platform": "HomeBridgeSmartThings",
+            "_bridge": {
+                "username": "0E:85:6F:52:4B:D9",
+                "port": 32449
+            }
+        },
+        {
+            "name": "Google Smart Home",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Imdvb2dsZS1vYXV0aDJ8MTE2MDA2NjEyODExMTQ4MTY2MjQxIiwiaWF0IjoxNjk4MjYzNDkyfQ.dMi8VZi5DYEAR9jtpAjGjpZibrOJKUwtES7xG5FY5q0",
+            "notice": "Keep your token a secret!",
+            "platform": "google-smarthome"
+        },
+        {
+            "clientId": "694056338405-7viur44293pen0inegembfi0r2tfipri.apps.googleusercontent.com",
+            "clientSecret": "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",
+            "projectId": "9b776fb1-3039-46a3-aca3-f22589ca847e",
+            "refreshToken": "1//03H_tIuogHnruCgYIARAAGAMSNwF-L9IrbAwRHAcS-xUFnz4bGtO41vAvtH8gzno48zwjgDeU-BmCA_1ezeGaEtpi05SGRVppGSk",
+            "subscriptionId": "projects/homekit-1698243244697/subscriptions/homekit-3391",
+            "fanDuration": 900,
+            "platform": "homebridge-google-nest-sdm",
+            "_bridge": {
+                "username": "0E:AC:42:AF:73:E6",
+                "port": 39105
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "bridge": {
+        "name": "Homebridge 58E1",
+        "username": "0E:34:B3:9B:58:E1",
+        "port": 51576,
+        "pin": "945-08-117",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "name": "Google Smart Home",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Imdvb2dsZS1vYXV0aDJ8MTE2MDA2NjEyODExMTQ4MTY2MjQxIiwiaWF0IjoxNjk4MTg4MjE3fQ.aw5N_WNNwVKH6sBCtr6y7DeCNT-eqeAZRF5nANLgtuE",
+            "notice": "Keep your token a secret!",
+            "platform": "google-smarthome"
+        }
+    ]
+}
